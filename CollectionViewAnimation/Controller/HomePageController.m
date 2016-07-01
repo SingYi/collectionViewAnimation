@@ -10,6 +10,9 @@
 #import "DateCell.h"
 #import "DateViewLayout.h"
 
+#define kSCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define kSCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+
 @interface HomePageController ()<UICollectionViewDelegate,UICollectionViewDataSource,UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic, strong) UICollectionView *dateView;
@@ -27,12 +30,13 @@
 @implementation HomePageController
 
 - (void)viewWillAppear:(BOOL)animated {
-    
+    [super viewWillAppear:animated];
     self.navigationController.navigationBarHidden = YES;
 }
 
 
 - (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
     self.navigationController.navigationBarHidden = NO;
 }
 

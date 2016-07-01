@@ -16,6 +16,9 @@
 		5E4CDB511D26309500B5A9EE /* InViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E4CDB501D26309500B5A9EE /* InViewController.m */; };
 		5E4CDB5A1D263ADE00B5A9EE /* ACell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E4CDB531D263ADE00B5A9EE /* ACell.m */; };
 		5E4CDB5D1D263ADE00B5A9EE /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E4CDB591D263ADE00B5A9EE /* TableViewCell.m */; };
+		5E4CDB631D26443100B5A9EE /* HomePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E4CDB621D26443100B5A9EE /* HomePageController.m */; };
+		5E4CDB681D2644A800B5A9EE /* DateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E4CDB651D2644A800B5A9EE /* DateCell.m */; };
+		5E4CDB691D2644A800B5A9EE /* DateViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E4CDB671D2644A800B5A9EE /* DateViewLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,12 @@
 		5E4CDB531D263ADE00B5A9EE /* ACell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACell.m; sourceTree = "<group>"; };
 		5E4CDB581D263ADE00B5A9EE /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
 		5E4CDB591D263ADE00B5A9EE /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		5E4CDB611D26443100B5A9EE /* HomePageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageController.h; sourceTree = "<group>"; };
+		5E4CDB621D26443100B5A9EE /* HomePageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageController.m; sourceTree = "<group>"; };
+		5E4CDB641D2644A800B5A9EE /* DateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateCell.h; sourceTree = "<group>"; };
+		5E4CDB651D2644A800B5A9EE /* DateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateCell.m; sourceTree = "<group>"; };
+		5E4CDB661D2644A800B5A9EE /* DateViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateViewLayout.h; sourceTree = "<group>"; };
+		5E4CDB671D2644A800B5A9EE /* DateViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateViewLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +102,8 @@
 				5E4CDB4D1D26158400B5A9EE /* CollectionViewController.m */,
 				5E4CDB4F1D26309500B5A9EE /* InViewController.h */,
 				5E4CDB501D26309500B5A9EE /* InViewController.m */,
+				5E4CDB611D26443100B5A9EE /* HomePageController.h */,
+				5E4CDB621D26443100B5A9EE /* HomePageController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -112,6 +123,10 @@
 		5E4CDB441D26044500B5A9EE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5E4CDB641D2644A800B5A9EE /* DateCell.h */,
+				5E4CDB651D2644A800B5A9EE /* DateCell.m */,
+				5E4CDB661D2644A800B5A9EE /* DateViewLayout.h */,
+				5E4CDB671D2644A800B5A9EE /* DateViewLayout.m */,
 				5E4CDB521D263ADE00B5A9EE /* ACell.h */,
 				5E4CDB531D263ADE00B5A9EE /* ACell.m */,
 				5E4CDB581D263ADE00B5A9EE /* TableViewCell.h */,
@@ -190,11 +205,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E4CDB2E1D2601D900B5A9EE /* AppDelegate.m in Sources */,
+				5E4CDB631D26443100B5A9EE /* HomePageController.m in Sources */,
 				5E4CDB451D26044500B5A9EE /* ViewController.m in Sources */,
 				5E4CDB5D1D263ADE00B5A9EE /* TableViewCell.m in Sources */,
 				5E4CDB4E1D26158400B5A9EE /* CollectionViewController.m in Sources */,
 				5E4CDB5A1D263ADE00B5A9EE /* ACell.m in Sources */,
+				5E4CDB681D2644A800B5A9EE /* DateCell.m in Sources */,
 				5E4CDB2B1D2601D900B5A9EE /* main.m in Sources */,
+				5E4CDB691D2644A800B5A9EE /* DateViewLayout.m in Sources */,
 				5E4CDB511D26309500B5A9EE /* InViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

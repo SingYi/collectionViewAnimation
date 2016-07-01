@@ -11,6 +11,7 @@
 #import "TableViewCell.h"
 #import "CollectionViewController.h"
 #import "InViewController.h"
+#import "HomePageController.h"
 
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 
@@ -79,6 +80,12 @@
             [self.navigationController pushViewController:ivc animated:YES];
             break;
         }
+        case 2: {
+            HomePageController *hvc = [HomePageController new];
+            [self.navigationController pushViewController:hvc animated:YES];
+            break;
+        }
+            
         default:
             break;
     }
